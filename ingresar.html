@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/logos/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Bengmar - Ingreso</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css_propio/miestilo.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./principal.html"
+            ><img class="logo" src="./assets/logos/bengmar.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./principal.html"
+                  >Principal</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienes_somos.html"
+                  >Quiénes Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./acerca_de.html">Acerca De</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Usuarios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="#">Cuenta</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./registrarse.html"
+                      >Registrarse</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#">Próximamente</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar en el sitio"
+                aria-label="Search"
+              />
+              <button class="btn btn-details" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container-logo w-100">
+        <img class="big-logo" src="./assets/logos/bengmar.png" alt="logo principal" />
+      </div>
+    </header>
+    <section class="container col-11 col-sm-8 col-lg-6 col-xl-5">
+      <form class="form-micss row g-3">
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-12">
+          <label for="inputPassword4" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Mantener sesión iniciada
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit" class="btn btn-primary">Ingresar</button>
+
+          <button type="reset" class="btn btn-danger">Cancelar</button>
+        </div>
+        <div class="col-12">
+          <a class="text-decoration-none text-white" href="./registrarse.html"
+            >¿Desea Registrarse?</a
+          >
+        </div>
+      </form>
+    </section>
+    <footer class="fixed-bottom">
+      <div class="redes">
+        <a href="https://telegram.org"
+          ><img src="./assets/logos/logotelegram.png" alt="telegram logo" /></a
+        ><a href="https://instagram.com"
+          ><img src="./assets/logos/logoinstagram.png" alt="instagram logo" /></a
+        ><a href="https://twitter.com"
+          ><img src="./assets/logos/logotwitter.png" alt="twitter logo"
+        /></a>
+      </div>
+      <div class="footer-content">
+        <p>&#169 Bengmar 2024</p>
+      </div>
+    </footer>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
